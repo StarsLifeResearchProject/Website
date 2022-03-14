@@ -549,7 +549,13 @@ input, select, textarea {
 
 		}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		font-weight: 900;
+		color: #ffffff;
+		letter-spacing: -0.0325em;
+	}
+
+	 h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		color: inherit;
 		letter-spacing: -0.0325em;
@@ -1832,7 +1838,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: rgba(0, 0, 0, 0.95);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1871,7 +1877,7 @@ input, select, textarea {
 
 					#header nav ul li a {
 						display: block;
-						color: inherit;
+						color: #ffffff;
 						text-decoration: none;
 						height: 3em;
 						line-height: 3em;
